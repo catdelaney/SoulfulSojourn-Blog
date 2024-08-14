@@ -1,16 +1,16 @@
 [
     {
-        "id": 1,
+        "user_id": 1,
         "title": "Declutter Your Life",
         "content": "Focus on what truly adds value to your life. Let go of distractions and unnecessary objects. Following the principals of minimalism you can and will make your environment more peaceful."
     },
     {
-        "id": 2,
+        "user_id": 2,
         "title": "Travel Tips for Budget Travellers",
-        "content": "Follow these handy tips to ensure you get the best bang for your buck while traveling! 1. Use public transport when possible. 2. Search for local experiences. Experiences created specifically for tourists are typically more expense. 3. Opt for off-peak travel times."
+        "content": "Follow these handy tips to ensure you get the best bang for your buck while traveling! 1. Use public transport when possible. 2. Opt for off-peak travel times."
     },
     {
-        "id": 3,
+        "user_id": 3,
         "title": "Daily Meditation: What are the Benefits?",
         "content": "Creating a routine that involves daily meditation with allow you to navigate life with a calmer mind. Meditation has been shown to enhance emotional well-being and can significantly reduce stress while improving mental clarity."
     }

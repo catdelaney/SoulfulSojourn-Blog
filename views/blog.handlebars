@@ -1,0 +1,21 @@
+<h2>{{title}}</h2>
+<p>{{content}}</p>
+
+<p>Created by {{user.name}}</p>
+
+<h2>Comments</h2>
+<ul>
+    {{#each comments as |comment| }}
+    <li>
+    <h3>{{comment.user.name}}:</h3> 
+    <p>{{comment.comment_content}}</p>
+    </li>
+{{/each}}
+</ul>
+
+<form id="commentForm">
+    <input type="text" id="commentInput" placeholder="Comment...">
+    <button type="submit" id="saveCommentButton">Save Comment</button>
+</form>
+
+<script src="/js/blog.js"></script>

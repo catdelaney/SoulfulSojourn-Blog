@@ -1,0 +1,24 @@
+<h1>PROFILE</h1>
+<h2>Welcome, {{name}}!</h2>
+
+<h3>Create a New Blog:</h3>
+<form>
+  <label for="blog-name">blog name:</label>
+  <input type="text" id="blog-name" name="blog-name"/>
+
+  <label for="blog-content">description:</label>
+  <textarea id="blog-content" name="blog-content"></textarea>
+
+  <button type="submit">Create</button>
+</form>
+
+{{#if blogs.length}}
+  <h3>Current blogs:</h3>
+
+  {{#each blogs as |blog|}}
+    <h4><a href="/blog/{{blog.id}}">{{blog.title}}</a></h4>
+    <button data-id="{{blog.id}}">DELETE</button>
+  {{/each}}
+{{/if}}
+
+<script src="./js/profile.js"></script>
