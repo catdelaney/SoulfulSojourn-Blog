@@ -4,6 +4,7 @@
 This CMS-style blog site is a fully-featured application where developers can publish, comment on, and manage blog posts. Built from scratch using the MVC architectural pattern and deployed on Render, the site uses Handlebars.js for templating, Sequelize as the ORM, and express-session for authentication. Users visiting the site for the first time will see a homepage with existing posts, navigation links, and options to log in or sign up. After authentication, users can view and comment on posts, manage their own posts through a dashboard. The dashboard allows users to add, update, or delete their blog posts, with comments and posts reflecting real-time changes and user interactions.
 
 ## Walk-Through Video
+[Video](https://www.loom.com/share/43ad9d7654f1492087650818083ed55a?sid=19f86a3b-0f4b-4ea2-b12a-72a8e3f47151)
 
 ## User Story
 AS A developer who writes about tech
